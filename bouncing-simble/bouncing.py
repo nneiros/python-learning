@@ -46,7 +46,7 @@ def getQuit():
 def main():
     pygame.init()
     balIimage = 'soccer-ball.png'
-    balls[]
+    balls = []
     for i in range(0,8):
         x = random.randint(80,500)
         y = random.randint(80,400)
