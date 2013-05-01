@@ -1,0 +1,14 @@
+(lp0
+S'home'
+p1
+aS'library'
+p2
+aS'garage'
+p3
+aS'garden'
+p4
+aS'pool'
+p5
+aS'car'
+p6
+a.

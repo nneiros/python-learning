@@ -1,0 +1,5 @@
+print ("Εισαγωγη αντικειμενου")
+name= input ("Δωσε το ονομα σου:")
+number= int(input("Αριθμος:"))
+onomasia = input("Ονομασια:")
+print (name,'\n', "Αριθμος", number,"Ονομασια", onomasia, ) 

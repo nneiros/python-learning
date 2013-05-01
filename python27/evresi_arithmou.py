@@ -1,0 +1,14 @@
+# -*- coding: cp1253 -*-
+import random
+thenumber = random.randint(1,50)
+print "евы сйежтеи ема аяихло апо то 1 ыс то 50."
+print "лпояеис ма том бяеис?"
+guess = 0
+while guess != thenumber:
+  guess = input("дысе том аяихло: ")
+  if guess > thenumber:
+    print "едысес лецакутеяо аяихло!"
+  if guess < thenumber:
+    print "едысес лийяотеяо аяихло!"
+  if guess == thenumber:
+    print "лпяабо том бягйес!!!"
