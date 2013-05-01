@@ -1,0 +1,84 @@
+(lp0
+ccopy_reg
+_reconstructor
+p1
+(c__main__
+Movie
+p2
+c__builtin__
+object
+p3
+Ntp4
+Rp5
+(dp6
+S'director'
+p7
+S'Frank Carpo'
+p8
+sS'year'
+p9
+S'1978'
+p10
+sS'id'
+p11
+S'1234'
+p12
+sS'title'
+p13
+S'Murder in the Dark'
+p14
+sbag1
+(g2
+g3
+Ntp15
+Rp16
+(dp17
+g7
+S'Hank Strong'
+p18
+sg9
+S'1993'
+p19
+sg11
+S'1235'
+p20
+sg13
+S'Kim does Dallas'
+p21
+sbag1
+(g2
+g3
+Ntp22
+Rp23
+(dp24
+g7
+S'Jaron Morgan'
+p25
+sg9
+S'1977'
+p26
+sg11
+S'1236'
+p27
+sg13
+S'Kaboom II'
+p28
+sbag1
+(g2
+g3
+Ntp29
+Rp30
+(dp31
+g7
+S'Loren Dickoff'
+p32
+sg9
+S'1967'
+p33
+sg11
+S'1237'
+p34
+sg13
+S'Soldiers of Fortune'
+p35
+sba.
