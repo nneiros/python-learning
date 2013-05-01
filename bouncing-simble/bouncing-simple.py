@@ -44,6 +44,8 @@ def main():
         screen.fill(surfacecolor)
         screen.blit(ball, (x, y))
         time = clock.tick()
+        if time == 0:
+            time = time +1
         thetext = textfont.render(str(1000/time), True, (255,0,0),(255,255,0))
         screen.blit(thetext,(0,0))
         time = time / 1000.0
