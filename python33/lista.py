@@ -1,8 +1,8 @@
 #Python Εύρεση τιμών από list,μέσα σε κείμενο
 def check_k(lista,keimeno):
     i=0
-    if i <len (lista):
-        if  lista[i] in keimeno:
+    if i <len (kreas):
+        if  kreas[i] in keimeno:
             return True
         else:
             return False
@@ -14,8 +14,8 @@ def check_k(lista,keimeno):
             else:
                 return False
             i+=1
-            if i<len(lista):
-                if lista[i] in keimeno:
+            if i<len(garnitoura):
+                if garnitoura[i] in keimeno:
                     #i+=1
                     return True
                 else:
@@ -41,9 +41,9 @@ def check_k(lista,keimeno):
                 #else:
                     #return True
 
-kreas= ['Χοιρινο','Κοτοπουλο']
+kreas= ['Πατατες', 'Ρυζι','Αλλο']
 piato= ['Δευτερο','Αλλο']
-garnitoura= ['Πατατες', 'Ρυζι','Αλλο']
+garnitoura= ['Χοιρινο','Κοτοπουλο']
 file ='lista2.txt'#->Διεύθυνση αρχείου  (Σαν dir_sin,έχω ορίσει πιο πριν το φάκελο του αρχείου,και σαν arxeio,την ονομασία του)
 f=open(file, "r", encoding="utf8")
 keimeno=f.read()
@@ -53,8 +53,8 @@ f.close()
 a=keimeno.split("\n")
 #print(a)
 gar=check_k(garnitoura, a[-3])
-pia=check_k(piato, a[-2])
-kre=check_k(kreas, a[-1])
+pia=check_k(piato, a[-3])#???????????-2
+kre=check_k(kreas, a[-3])#??????????-1
 #print(garnitoura,a[-3])
 #print (piato,a[-2])
 #print (kreas,a[-1])
