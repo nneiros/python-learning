@@ -1,20 +1,19 @@
 #Python Εύρεση τιμών από list,μέσα σε κείμενο
 def check_k(lista,keimeno):
     i=0
-    if i< len(garnitoura):
-        if  garnitoura[i] in keimeno:
-            #i+=1
+    if i <len (lista):
+        if  lista[i] in keimeno:
             return True
         else:
             return False
-        #i+=1
+        i+=1
         if i<len(piato):
             if piato[i] in keimeno:
                 #i+=1
                 return True
             else:
                 return False
-            #i+=1
+            i+=1
             if i<len(lista):
                 if lista[i] in keimeno:
                     #i+=1
