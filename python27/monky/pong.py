@@ -122,5 +122,4 @@ def terminate():
     pygame.quit()
     sys.exit()
 
-if __name__ == '__main__':
-    main()
+if __name__ == '__main__': main()
