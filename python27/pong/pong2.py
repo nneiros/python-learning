@@ -1,5 +1,5 @@
 # Ping versjon 0.1
-
+#Player 1=W,S kai Player2= Pano,Kato Belakia
 import pygame, sys, math, random
 from pygame.locals import *
 

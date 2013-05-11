@@ -73,7 +73,7 @@ def reverse(text):
 
 def is_palindrome(text):
     return text == reverse(text)
-something = input('Δωσε τη λεξη: ')
+something = input('Δωσε τη λεξη για να δω αν την διαβαζω και απο τις δυο κατευθυνσεις: ')
 if (is_palindrome(something)):
     print("Ναι, αυτη η λεξη την διαβαζουν και απο τις δυο κατευθυνσεις")
 else:
