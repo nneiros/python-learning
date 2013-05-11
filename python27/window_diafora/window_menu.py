@@ -5,12 +5,12 @@ def callback():
 
 root = Tk()
 
-# create a menu
+# create a menu#dexetai mono agglika
 menu = Menu(root)
 root.config(menu=menu)
 
 filemenu = Menu(menu)
-menu.add_cascade(label="File", menu=filemenu)
+menu.add_cascade(label="Arxeio", menu=filemenu)
 filemenu.add_command(label="New", command=callback)
 filemenu.add_command(label="Open...", command=callback)
 filemenu.add_separator()

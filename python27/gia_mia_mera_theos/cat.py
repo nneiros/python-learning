@@ -2,7 +2,7 @@ class mammal:
      def __init__(self):
          self.legs=4
      def speak(self):
-          print"mpla mpla!"
+          print"Τα θηλαστικα εχουν ομιλια...μπλα μπλα!"
      def setName(self,name):
            self.name = name
      def getName(self):
@@ -14,10 +14,10 @@ class cat(mammal):
          mammal.__init__(self)
          self.color="ασπρο"
      def speak(self):
-         print 'Η γατα κανει meow!'
+         print 'Η γατα κανει μιαου!'
 animal=mammal()
 thecat = cat()
 animal.speak()
 thecat.speak()
-print ('Η γατα εχει χρωμα'),thecat.color
-print ('Η γατα εχει'),thecat.legs,('ποδια')           
+print ('εχει χρωμα'),thecat.color
+print ('και εχει'),thecat.legs,('ποδια.')           

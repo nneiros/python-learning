@@ -1,4 +1,4 @@
-# Pong
+# Pong #den leitourgei sosta h raketa tou computer
 import random, pygame, sys
 from pygame.locals import *
 

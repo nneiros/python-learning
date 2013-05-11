@@ -2,11 +2,11 @@ from Tkinter import *
 
 class Application(Frame):
     def say_hi(self):
-        print "hi there, everyone!"
+        print "Γεια σας,σε ολους σας!"
 
     def createWidgets(self):
         self.QUIT = Button(self)
-        self.QUIT["text"] = "QUIT"
+        self.QUIT["text"] = "Quit"
         self.QUIT["fg"]   = "red"
         self.QUIT["command"] =  self.quit
 
