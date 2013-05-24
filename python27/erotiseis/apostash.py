@@ -10,4 +10,4 @@ aab=float(aab)
 aabr=math.pi*aab/200   #metatropi tou aAB apo grad se rad
 xb= xa+sab*math.sin(aabr) #ypologismos Xb
 yb= ya+sab*math.cos(aabr) #ypologismos Xb
-print 'To σημειο B εχει συντεταγμενες Xb:', xb, ', Yb:' , yb   #epistrofi stin o8oni twn timwn Xb, Yb
+print 'To σημειο B εχει συντεταγμενες Xb:', xb, ', Yb:' , yb   #epistrofi stin othoni twn timwn Xb, Yb

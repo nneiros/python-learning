@@ -1,4 +1,4 @@
-from Tkinter import *
+from Tkinter import *#διαιρεση 1/2 το 2 θελει 2.0
 
 def frame(root, side): 
     w = Frame(root)
