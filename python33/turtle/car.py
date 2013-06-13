@@ -1,4 +1,7 @@
 import turtle
+wn = turtle.Screen()
+wn.title('Zωγραφιζω ενα αυτοκινητο')#ettiketa
+wn.bgcolor('yellow')#xroma fontou
 t = turtle.Pen()
 t.reset()
 t.color(1,0,0)#xroma grammis
@@ -36,3 +39,4 @@ t.begin_fill()
 t.down()
 t.circle(20)#kyklos roda 2(10)
 t.end_fill()
+wn.exitonclick()#patao klik pontikiou kai exo exodo
