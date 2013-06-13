@@ -1,4 +1,7 @@
 import turtle
+wn = turtle.Screen()
+wn.title('Κατασκευη αστεριου κιτρινου με κοκκινη γραμμη')
+wn.bgcolor('lightgreen')
 t = turtle.Pen()
 t.reset()
 def mystar(size, filled):
@@ -16,3 +19,4 @@ t.color(1, 0.85, 0)
 mystar(120, True)
 t.color(1, 0, 0)
 mystar(120, False)
+wn.exitonclick()
