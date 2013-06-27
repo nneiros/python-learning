@@ -10,7 +10,7 @@ numbers = {}#leksiko
 menu_choice = 0
 print_menu()
 while True :
-    menu_choice = input("Δωσε την επιλογη σου (1-5): ")
+    menu_choice = int(input("Δωσε την επιλογη σου (1-5): "))
     if menu_choice == 1:
         print("Tηλεφωνα:")
         for x in numbers.keys():
@@ -35,7 +35,9 @@ while True :
             print("Tο τηλεφωνο ειναι:", numbers[name])
         else:
             print(name, "δεν βρεθηκε")
-    elif menu_choice == 5:
-        print_menu()
+    elif menu_choice ==  5:
+        break
+        #print_menu()
     else:
         print('Eπανελαβε...')
+        print_menu()
