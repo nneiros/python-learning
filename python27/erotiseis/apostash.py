@@ -1,13 +1,13 @@
 import math
-xa=raw_input('Δωσε μου το Xa:')  #eisagoume to Xa
+xa=input('Ξ”Ο‰ΟƒΞµ ΞΌΞΏΟ… Ο„ΞΏ Xa:')  #eisagoume to Xa
 xa=float(xa)                     #metatrepoume to int se float 
-ya=raw_input('Δωσε μου το Ya:')  #eisagoume to Ya
+ya=input('Ξ”Ο‰ΟƒΞµ ΞΌΞΏΟ… Ο„ΞΏ Ya:')  #eisagoume to Ya
 ya=float(ya)    
-sab=raw_input('Δωσε μου την αποσταση AB:') #eisagoume to Sab
+sab=input('Ξ”Ο‰ΟƒΞµ ΞΌΞΏΟ… Ο„Ξ·Ξ½ Ξ±Ο€ΞΏΟƒΟ„Ξ±ΟƒΞ· AB:') #eisagoume to Sab
 sab=float(sab)
-aab=raw_input('Δωσε μου την γωνια διευθυνσης ab -σε grad-:') #eisagoume to aAB se grad
+aab=input('Ξ”Ο‰ΟƒΞµ ΞΌΞΏΟ… Ο„Ξ·Ξ½ Ξ³Ο‰Ξ½ΞΉΞ± Ξ΄ΞΉΞµΟ…ΞΈΟ…Ξ½ΟƒΞ·Ο‚ ab -ΟƒΞµ grad-:') #eisagoume to aAB se grad
 aab=float(aab)
 aabr=math.pi*aab/200   #metatropi tou aAB apo grad se rad
 xb= xa+sab*math.sin(aabr) #ypologismos Xb
 yb= ya+sab*math.cos(aabr) #ypologismos Xb
-print 'To σημειο B εχει συντεταγμενες Xb:', xb, ', Yb:' , yb   #epistrofi stin othoni twn timwn Xb, Yb
+print( 'To ΟƒΞ·ΞΌΞµΞΉΞΏ B ΞµΟ‡ΞµΞΉ ΟƒΟ…Ξ½Ο„ΞµΟ„Ξ±Ξ³ΞΌΞµΞ½ΞµΟ‚ Xb:', xb, ', Yb:' , yb)   #epistrofi stin othoni twn timwn Xb, Yb
