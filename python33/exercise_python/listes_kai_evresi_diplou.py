@@ -45,7 +45,7 @@ print('Λιστα=',list)
 list.sort()
 print('Ταξινομηση λιστας',list)
 prev = list[2]
-print ("Επεστρεψε το στοιχειο στη θεση 0:",prev)
+print ("Επεστρεψε το στοιχειο στη θεση 2:",prev)
 del list[0]
 print('Aφαιρεση του 0 στοιχειου',list)
 
